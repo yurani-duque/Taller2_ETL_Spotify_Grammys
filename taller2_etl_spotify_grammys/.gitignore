@@ -7,6 +7,5 @@ output/*
 !data/.gitkeep
 !db/.gitkeep
 !staging/.gitkeep
-airflow_home/
 __pycache__/
 .venv/
