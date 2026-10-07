@@ -1,3 +1,4 @@
+# Datos y artefactos generados
 data/*.csv
 data/*.sqlite
 db/*.db
@@ -7,5 +8,13 @@ output/*
 !data/.gitkeep
 !db/.gitkeep
 !staging/.gitkeep
-__pycache__/
+
+# Airflow local (BD, contraseña de admin, pid, logs)
+airflow_home/
+
+# Entornos y cachés
 .venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
