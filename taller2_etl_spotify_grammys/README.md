@@ -52,7 +52,7 @@ read_db  → transform_db ──────────────────
 | `load` | Tabla `tracks_grammys` en SQLite (con verificación de conteo) |
 | `store` | `output/spotify_grammys.csv` (y copia a Drive si se define `ETL_DRIVE_DIR`) |
 
-![Texto alternativo](taller2_etl_spotify_grammys/docs/Captura de pantalla 2026-10-07 101229.png)
+![Reporte estático del pipeline](docs/reporte_estatico.png)
 
 
 ## Validación de calidad (Pandera)
