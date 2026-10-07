@@ -25,8 +25,7 @@ taller2_etl_spotify_grammys/
 │   └── Taller2_ETL_Spotify_Grammys.ipynb   # versión Google Colab (equivalente)
 ├── docs/                           # evidencias: dag_airflow.png, reporte_estatico (PNG/HTML), captura HTML de Airflow
 ├── requirements.txt
-├── run_local.sh                    # ejecuta todo en local
-└── README.md
+└── run_local.sh                    # levanta Airflow en local (ver "Ejecución en local")
 ```
 
 ## Datos
@@ -106,3 +105,4 @@ Abrir `notebooks/Taller2_ETL_Spotify_Grammys.ipynb` y ejecutar las celdas en ord
 ## Fuentes originales de los datasets
 - Spotify Tracks Dataset: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
 - Grammy Awards Dataset: https://www.kaggle.com/datasets/unanimad/grammy-awards
+
