@@ -53,6 +53,7 @@ read_db  → transform_db ──────────────────
 | `store` | `output/spotify_grammys.csv` (y copia a Drive si se define `ETL_DRIVE_DIR`) |
 
 ![Reporte estático del pipeline](docs/reporte_estatico.png)
+![Grafo del DAG en Airflow](taller2_etl_spotify_grammys/docs/dag_airflow.png)
 
 
 ## Validación de calidad (Pandera)
