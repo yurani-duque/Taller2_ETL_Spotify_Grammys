@@ -52,6 +52,9 @@ read_db  → transform_db ──────────────────
 | `load` | Tabla `tracks_grammys` en SQLite (con verificación de conteo) |
 | `store` | `output/spotify_grammys.csv` (y copia a Drive si se define `ETL_DRIVE_DIR`) |
 
+![Texto alternativo](taller2_etl_spotify_grammys/docs/Captura de pantalla 2026-10-07 101229.png)
+
+
 ## Validación de calidad (Pandera)
 - **Bloquean (NO PASA):** tipos; no nulos en `track_id`, `popularity`, `duration_ms`, features y `track_genre`; `popularity` 0–100; features de audio 0–1; `loudness` −60…5; `tempo` ≥ 0; `key` −1…11; `mode` ∈ {0,1}; `time_signature` 0…5; `duration_ms` ≥ 0 (el CSV real trae una fila con 0, que es la fila nula).
 - **Advertencias (no bloquean, se registran en `dq_log`):** metadatos nulos y duplicados `(track_id, track_genre)`; se corrigen en `transform_csv`.
