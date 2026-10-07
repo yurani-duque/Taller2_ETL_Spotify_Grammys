@@ -1,0 +1,12 @@
+data/*.csv
+data/*.sqlite
+db/*.db
+staging/*.csv
+output/*
+!output/.gitkeep
+!data/.gitkeep
+!db/.gitkeep
+!staging/.gitkeep
+airflow_home/
+__pycache__/
+.venv/

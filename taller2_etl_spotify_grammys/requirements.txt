@@ -1,0 +1,10 @@
+# Dependencias del Taller 2 - ETL Spotify + Grammys
+# Python 3.12. Airflow debe instalarse con su archivo de constraints oficial:
+#   pip install -r requirements.txt \
+#     --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.11.2/constraints-3.12.txt
+
+apache-airflow==2.11.2   # orquestacion (DAG)
+pandas                   # lectura/transformacion/merge (version fijada por constraints de Airflow)
+pandera                  # validacion de calidad de datos
+matplotlib               # reporte estatico
+numpy
