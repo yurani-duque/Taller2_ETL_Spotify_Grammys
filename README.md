@@ -53,9 +53,9 @@ read_db  → transform_db ──────────────────
 | `load` | Tabla `tracks_grammys` en SQLite (con verificación de conteo) |
 | `store` | `output/spotify_grammys.csv` (y copia a Drive si se define `ETL_DRIVE_DIR`) |
 
-![Grafo del DAG en Airflow](docs/dag_airflow.png)
+![Grafo del DAG en Airflow](taller2_etl_spotify_grammys/docs/dag_airflow.png)
 
-![Reporte estático](docs/reporte_estatico.png)
+![Reporte estático](taller2_etl_spotify_grammys/docs/reporte_estatico.png)
 
 
 ## Validación de calidad (Pandera)
@@ -106,4 +106,3 @@ Abrir `notebooks/Taller2_ETL_Spotify_Grammys.ipynb` y ejecutar las celdas en ord
 ## Fuentes originales de los datasets
 - Spotify Tracks Dataset: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
 - Grammy Awards Dataset: https://www.kaggle.com/datasets/unanimad/grammy-awards
-
